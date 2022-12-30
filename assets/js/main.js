@@ -95,6 +95,7 @@ const tabContents = document.querySelectorAll('[data-content]')
 /*==================== PORTFOLIO SWIPER  ====================*/
 
 let swiper = new Swiper('.portfolio__container', {
+    slidesPerView: 'auto',
     cssMode: true,
     loop: true,
     navigation: {
