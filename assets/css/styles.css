@@ -1,5 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -27,7 +27,7 @@
     --yellow-color: #EEB902;
 
     /*========== Font and typography ==========*/
-    --body-font: 'Poppins', sans-serif;
+    --body-font: 'Quicksand', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
@@ -213,7 +213,8 @@ body.active {
 .portfolio__title.active,
 .swiper-portfolio-icon.active,
 .contact__icon.active, 
-.contact__title.active
+.contact__title.active,
+.nav__link.active
  {
   color: white;
 }
@@ -233,7 +234,7 @@ body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: #FAFAFA;
   color: var(--text-color);
 
 }
@@ -290,7 +291,7 @@ img {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  background-color: #FAFAFA;
 }
 
 /*==================== NAV ====================*/

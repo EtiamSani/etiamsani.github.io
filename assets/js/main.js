@@ -168,6 +168,7 @@ const toggle = document.querySelector(".toggle-item"),
       const qualification = document.querySelectorAll('.qualification__button, .qualification__icon, .qualification__subtitle, .qualification__rounder , .qualification__line ')
       const portfolio = document.querySelectorAll('.portfolio__title, .swiper-portfolio-icon')
       const contact = document.querySelectorAll('.contact__icon, .contact__title')
+      const navLinks = document.querySelectorAll('.nav__link')
       
 
 
@@ -241,6 +242,13 @@ const toggle = document.querySelector(".toggle-item"),
            contact[i].classList.toggle("active")
             
          }
+
+         for (i = 0; i < navLinks.length; i++) {
+            
+            navLinks[i].classList.toggle("active")
+             
+          }
+ 
 
 
 
