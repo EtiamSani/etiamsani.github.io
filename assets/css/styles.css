@@ -172,8 +172,6 @@ body.active {
 }
 
 
-/* teste */
-
 
 #change-icon1 {
   font-size: 1.2rem ;
@@ -501,7 +499,7 @@ img {
   color: #fff;
   padding: 1rem;
   font-weight: var(--font-medium);
-  border-radius: .5rem;
+  border-radius: 1.3rem;
   background: #393E41
 }
 
@@ -532,6 +530,7 @@ img {
 .about__description {
   text-align: center;
   margin-bottom: var(--mb-2-5);
+  line-height: 1.5;
 }
 
 .about__buttons {
@@ -541,6 +540,10 @@ img {
 
 .about__blob {
   fill: #393E41 !important;
+}
+
+strong {
+  font-weight: bold;
 }
 /*==================== SKILLS ====================*/
 
@@ -658,15 +661,17 @@ img {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.6px);
   -webkit-backdrop-filter: blur(6.6px);
-  height: 15rem;
-  width: 15rem;
+  height: 28rem;
+  width: 20rem;
   padding: 1rem;
   vertical-align: center;
-  overflow: auto;
+  word-wrap: break-word;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100%;
+  line-height: 1.5;
   
 }
 
@@ -1095,8 +1100,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 
   body {
@@ -1125,6 +1129,7 @@ img {
   .nav {
     height: calc(var(--header-height)+ 1.5rem);
     column-gap: 1rem;
+    padding: 1rem;
   }
 
   .nav__icon,
@@ -1202,6 +1207,9 @@ img {
         padding: 0;
       }
 
+      .container {
+        max-width: 1024px;
+      }
       .home__blob {
         width: 320px;
       }
@@ -1211,9 +1219,14 @@ img {
       }
 
       .portfolio__content {
-        column-gap: 0rem;
+        column-gap: 10rem;
         padding: 0 10rem;
+        width: 100%;
         
+      }
+
+      .portfolio__container {
+        width: 75%;
       }
 
       .portfolio__item-badge {
@@ -1235,7 +1248,7 @@ img {
       }
 
       .uil-angle-left-b {
-        padding-left: 20rem;
+        padding-left: 15rem;
         margin-top: 10rem;
       }
 
