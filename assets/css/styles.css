@@ -909,7 +909,7 @@ strong {
 }
 
 .contact__icon {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #393E41;
   margin-right: var(--mb-0-75);
 }
@@ -943,6 +943,16 @@ strong {
   border: none;
   outline: none;
   padding: .25rem .5rem .5rem 0;
+}
+
+.contact__icon-linkedin{
+  font-size: 3rem;
+  color: #393E41;
+}
+
+.contact__container-data {
+  display: flex;
+  margin: auto;
 }
 
 
@@ -1101,6 +1111,8 @@ strong {
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -1170,6 +1182,7 @@ strong {
 
   .about__description { 
     text-align: initial;
+    margin-top: 10rem;
   }
   .qualification__tabs {
     justify-content: center;
@@ -1203,6 +1216,9 @@ strong {
 .footer__copy{
   margin-top: 4.5rem;
 }
+
+
+
 }
 /* For large devices */
 
@@ -1277,4 +1293,6 @@ strong {
       .contact__inputs {
         grid-template-columns: repeat(2,1fr);
       }
+
+     
      }
