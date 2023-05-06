@@ -152,116 +152,57 @@ window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/ 
 
-const toggle = document.querySelector(".toggle-item"),
-      body=document.querySelector('body'),
-      header = document.querySelector('header');
-      const z = document.querySelector('#change-icon1');
-      const h = document.querySelector('#change-icon2');
-      const title = document.querySelectorAll('.section__title')
-      const logo = document.querySelectorAll('.skills__name')
-      const icon = document.querySelectorAll(".skills__icon")
-      const nav = document.querySelector(".nav__logo")
-      const menu = document.querySelector(".nav__toggle")
-      const softskillsIcon = document.querySelectorAll('.softskills__icon')
-      const sectionSubtitles = document.querySelectorAll('.section__subtitle')
-      const softskillsName = document.querySelectorAll('.softskills__name')
-      const softskillsDescription = document.querySelectorAll('.softskills__description')
-      const qualification = document.querySelectorAll('.qualification__button, .qualification__icon, .qualification__subtitle, .qualification__rounder , .qualification__line ')
-      const portfolio = document.querySelectorAll('.portfolio__title, .swiper-portfolio-icon')
-      const contact = document.querySelectorAll('.contact__icon, .contact__title')
-      const navLinks = document.querySelectorAll('.nav__link')
-      
+const toggle = document.querySelector(".toggle-item");
+const body = document.querySelector("body");
+const header = document.querySelector("header");
+const z = document.querySelector("#change-icon1");
+const h = document.querySelector("#change-icon2");
+const title = document.querySelectorAll(".section__title");
+const logo = document.querySelectorAll(".skills__name");
+const icon = document.querySelectorAll(".skills__icon");
+const nav = document.querySelector(".nav__logo");
+const menu = document.querySelector(".nav__toggle");
+const mobileMenu = document.querySelector(".nav__menu");
+const softskillsIcon = document.querySelectorAll(".softskills__icon");
+const sectionSubtitles = document.querySelectorAll(".section__subtitle");
+const softskillsName = document.querySelectorAll(".softskills__name");
+const softskillsDescription = document.querySelectorAll(".softskills__description");
+const qualification = document.querySelectorAll(".qualification__button, .qualification__icon, .qualification__subtitle, .qualification__rounder , .qualification__line ");
+const portfolio = document.querySelectorAll(".portfolio__title, .swiper-portfolio-icon");
+const contact = document.querySelectorAll(".contact__icon, .contact__title");
+const navLinks = document.querySelectorAll(".nav__link");
 
+function toggleClassOnElements(elements, className) {
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].classList.toggle(className);
+  }
+}
 
+function toggleTheme() {
+  toggle.classList.toggle("active");
+  body.classList.toggle("active");
+  header.classList.toggle("active");
+  z.classList.toggle("moon");
+  h.classList.toggle("sun");
+  nav.classList.toggle("active");
+  menu.classList.toggle("active");
+  mobileMenu.classList.toggle("active");
 
-      toggle.addEventListener("click", function(){
-        this.classList.toggle("active");
-        body.classList.toggle("active");
-        header.classList.toggle("active");
-        z.classList.toggle("moon");
-        h.classList.toggle("sun");
-        
-        nav.classList.toggle("active")
-        menu.classList.toggle("active")
+  toggleClassOnElements(title, "active");
+  toggleClassOnElements(logo, "active");
+  toggleClassOnElements(icon, "active");
+  toggleClassOnElements(softskillsIcon, "active");
+  toggleClassOnElements(sectionSubtitles, "active");
+  toggleClassOnElements(softskillsName, "active");
+  toggleClassOnElements(softskillsDescription, "active");
+  toggleClassOnElements(qualification, "active");
+  toggleClassOnElements(portfolio, "active");
+  toggleClassOnElements(contact, "active");
+  toggleClassOnElements(navLinks, "active");
+}
 
-        for (i = 0; i < title.length; i++) {
-           title[i].classList.toggle('active');
-        }
-
-        for (i = 0; i < logo.length; i++) {
-            
-            logo[i].classList.toggle('active')
-        
-         }
-
-         for (i = 0; i < icon.length; i++) {
-            
-            icon[i].classList.toggle("active")
-            
-         }
-
-         for (i = 0; i < softskillsIcon.length; i++) {
-            
-            softskillsIcon[i].classList.toggle("active")
-            
-         }
-
-         
-         for (i = 0; i < sectionSubtitles.length; i++) {
-            
-            sectionSubtitles[i].classList.toggle("active")
-            
-         }
-
-         
-         for (i = 0; i < softskillsName.length; i++) {
-            
-            softskillsName[i].classList.toggle("active")
-            
-         }
-
-         for (i = 0; i < softskillsDescription.length; i++) {
-            
-            softskillsDescription[i].classList.toggle("active")
-            
-         }
-
-         for (i = 0; i < qualification.length; i++) {
-            
-            qualification[i].classList.toggle("active")
-            
-         }
-
-         for (i = 0; i < portfolio.length; i++) {
-            
-            portfolio[i].classList.toggle("active")
-            
-         }
-
-         for (i = 0; i < contact.length; i++) {
-            
-           contact[i].classList.toggle("active")
-            
-         }
-
-         for (i = 0; i < navLinks.length; i++) {
-            
-            navLinks[i].classList.toggle("active")
-             
-          }
- 
-
-
-
-
+toggle.addEventListener("click", toggleTheme);
 
         
 
-        // function to change content from light -- dark
-
-        // if(toggle.classList.contains("active")){
-        //     content.innerHTML="Dark Mode";
-        // }else{
-        //     content.innerHTML="Light Mode";
-        // }
-      });
+    

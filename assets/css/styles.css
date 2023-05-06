@@ -391,6 +391,10 @@ img {
   bottom: 0;
 }
 
+.show-menu.active {
+  background-color: black;
+}
+
 
 
 /* Active link */
@@ -1179,7 +1183,8 @@ strong {
     grid-template-columns: .5fr;
   }
  .portfolio__img {
-  width: 320px;
+  width: 250px;
+  height: 250px;
  }
  .portfolio__content {
   align-items: center;
@@ -1231,7 +1236,7 @@ strong {
       }
 
       .portfolio__item-badge {
-        left: 22rem;
+        left: 25rem;
       }
 
       .portfolio__item-badge--back {
@@ -1242,7 +1247,9 @@ strong {
         margin-left: -10rem;
         padding-left: 0;
       }
-
+      .portfolio__data {
+        margin: 0rem;
+      }
       .uil-angle-right-b{
         padding-left:-30rem ;
         margin-top: 10rem;
