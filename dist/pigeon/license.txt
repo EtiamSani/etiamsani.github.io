@@ -1,0 +1,11 @@
+Model Information:
+* title:	Percy Pigeon
+* source:	https://sketchfab.com/3d-models/percy-pigeon-b652c476dfeb46f283afb1b471bff652
+* author:	Macd3d (https://sketchfab.com/Macd3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Percy Pigeon" (https://sketchfab.com/3d-models/percy-pigeon-b652c476dfeb46f283afb1b471bff652) by Macd3d (https://sketchfab.com/Macd3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
