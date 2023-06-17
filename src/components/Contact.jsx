@@ -7,6 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -16,6 +19,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
     const { target } = e;
@@ -31,10 +35,11 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_3fstd6n',
+        'template_1kkyiiw',
         {
           from_name: form.name,
           to_name: "Etiam Sani",
@@ -42,12 +47,12 @@ const Contact = () => {
           to_email: "etiam.sani@laposte.net",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'b2pJN25z_n-jJpjiM'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          setMessage("Merci ! Je vous recontacterai dès que possible.");
 
           setForm({
             name: "",
@@ -59,7 +64,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          setMessage("Il y a eu un petit souci... Veuillez réessayer.");;
         }
       );
   };
@@ -120,6 +125,12 @@ const Contact = () => {
           >
             {loading ? "npm essaie de prendre son envol..." : "Envoyer le pigeon voyageur !"}
           </button>
+
+          {message && (
+            <div className="text-white font-medium mt-4 mx-auto">
+              {message}
+            </div>
+          )}
         </form>
       </motion.div>
 
