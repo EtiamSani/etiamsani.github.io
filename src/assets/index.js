@@ -25,13 +25,8 @@ import threejs from "./tech/threejs.png";
 import vite from "./tech/vite.png"
 import postgresql from "./tech/postgresql.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
 import smart from "./Smart.png";
-import jobit from "./jobit.png";
 import mytherapist from "./mytherapist.png";
 
 export {
@@ -58,11 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  jobit,
   frontend,
   smart,
   mytherapist,

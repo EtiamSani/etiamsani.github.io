@@ -8,7 +8,7 @@ const Earth = () => {
   const earth = useGLTF("./pigeon/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={0.3} position-y={-1.7} rotation-y={0} />
+    <primitive object={earth.scene} scale={0.3} position-y={-1.5} rotation-y={0} />
   );
 };
 
@@ -26,7 +26,8 @@ const EarthCanvas = () => {
         position: [-4, 3, 2],
       }}
     >
-      <hemisphereLight position={[0, 60, 0]} intensity={0.6} /> 
+      <ambientLight intensity={0.6} /> 
+      <directionalLight position={[0, 10, 5]} intensity={0.8} /> 
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           autoRotate
