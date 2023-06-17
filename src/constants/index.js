@@ -48,7 +48,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Esprit entrepreuniale",
+    title: "Esprit entrepreneurial",
     icon: creator,
   },
   {
