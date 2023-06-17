@@ -1,8 +1,8 @@
 import {
-  mobile,
+  frontend,
   backend,
   creator,
-  web,
+  entrepreneur,
   javascript,
   typescript,
   html,
@@ -11,7 +11,7 @@ import {
   vite,
   tailwind,
   nodejs,
-  mongodb,
+  science,
   git,
   figma,
   docker,
@@ -41,7 +41,7 @@ export const navLinks = [
 const services = [
   {
     title: "Développement front-end",
-    icon: web,
+    icon: frontend,
   },
   {
     title: "Développement back-end",
@@ -49,11 +49,11 @@ const services = [
   },
   {
     title: "Esprit entrepreneurial",
-    icon: creator,
+    icon: entrepreneur,
   },
   {
-    title: "Sciences",
-    icon: creator,
+    title: "Rigueur scientifique",
+    icon: science,
   },
 ];
 

@@ -1,8 +1,10 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import frontend from "./frontend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
-import web from "./web.png";
+import entrepreneur from "./entrepreneur.png";
+import science from "./science.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -37,7 +39,7 @@ export {
   backend,
   creator,
   mobile,
-  web,
+  entrepreneur,
   postgresql,
   github,
   menu,
@@ -61,7 +63,8 @@ export {
   starbucks,
   tesla,
   jobit,
- 
+  frontend,
   smart,
   mytherapist,
+  science,
 };
