@@ -5,14 +5,11 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 const Tech = () => {
+  const icons = Object.values(technologies).map((technology) => technology.icon);
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-        </div>
-      ))}
-    </div>
+    <div className='w-full h-[75vh] mx-auto'>
+          <BallCanvas icons={icons} />
+      </div>
   );
 };
 
