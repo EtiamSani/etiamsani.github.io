@@ -21,14 +21,23 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
+  const [isFormValid, setIsFormValid] = useState(false);
+
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
 
-    setForm({
+    setForm((prevForm) => ({
+      ...prevForm,
+      [name]: value,
+    }));
+  
+    const { name: formName, email, message } = {
       ...form,
       [name]: value,
-    });
+    };
+    const isValid = formName.trim() !== "" && email.trim() !== "" && message.trim() !== "";
+    setIsFormValid(isValid && (formName !== "" || email !== "" || message !== ""));
   };
 
   const handleSubmit = (e) => {
@@ -120,11 +129,13 @@ const Contact = () => {
           </label>
 
           <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "npm essaie de prendre son envol..." : "Envoyer le pigeon voyageur !"}
-          </button>
+          type='submit'
+          disabled={!isFormValid} // Désactiver le clic lorsque le formulaire n'est pas valide
+          className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+        >
+          {loading ? "npm essaie de prendre son envol..." : "Envoyer le pigeon voyageur !"}
+        </button>
+
 
           {message && (
             <div className="text-white font-medium mt-4 mx-auto">
