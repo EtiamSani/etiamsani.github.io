@@ -7,7 +7,7 @@ import { technologies } from "../constants";
 const Tech = () => {
   const icons = Object.values(technologies).map((technology) => technology.icon);
   return (
-    <div className='w-full h-[75vh] mx-auto'>
+    <div className='w-full  mx-auto'>
           <BallCanvas icons={icons} />
       </div>
   );

@@ -50,6 +50,15 @@ transitionSpeed={450}
               />
             </div>
           </div>
+          <div className='absolute top-12 right-px flex justify-end m-3 card-img_hover'>
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+            
+              <span className='text-white'>Demo</span>
+            </div>
+          </div>
         </div>
 
         <div className='mt-5'>
