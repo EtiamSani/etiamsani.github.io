@@ -1,4 +1,4 @@
-import React, { Suspense, useMemo } from "react";
+import React from "react";
 
 const Icon = ({ src }) => {
   return <img src={src} alt="Icon" className="w-16 h-16 m-5 sm:w-12 sm:h-12 md:w-16 md:h-16" />;

@@ -88,14 +88,6 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 
@@ -130,7 +122,9 @@ const projects = [
       },
     ],
     image: mytherapist,
+    demo: false,
     source_code_link: "https://github.com/EtiamSani/Project-my-therapist-back",
+    demo_link: "",
   },
   {
     name: "Smart Stock Tracker",
@@ -167,7 +161,9 @@ const projects = [
       },
     ],
     image: smart,
+    demo:false,
     source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
+    demo_link: "",
   },
 ];
 
