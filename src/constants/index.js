@@ -122,9 +122,9 @@ const projects = [
       },
     ],
     image: mytherapist,
-    demo: false,
+    demo: true,
     source_code_link: "https://github.com/EtiamSani/Project-my-therapist-back",
-    demo_link: "",
+    demo_link: "https://my-therapist.netlify.app/",
   },
   {
     name: "Smart Stock Tracker",
@@ -161,9 +161,9 @@ const projects = [
       },
     ],
     image: smart,
-    demo:false,
+    demo:true,
     source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
-    demo_link: "",
+    demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
   },
 ];
 
