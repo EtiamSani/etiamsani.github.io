@@ -24,10 +24,15 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
 import vite from "./tech/vite.png"
 import postgresql from "./tech/postgresql.png"
+import Nextjs from "./tech/Nextjs.png"
+import nestjs from "./tech/Nest.png"
+import java from "./tech/java.png"
+import springboot from "./tech/springboot.png"
 
 
 import smart from "./Smart.png";
 import mytherapist from "./mytherapist.png";
+import vêtements from "./vêtements.png"
 
 export {
   logo,
@@ -36,11 +41,16 @@ export {
   mobile,
   entrepreneur,
   postgresql,
+  vêtements,
   github,
+  java,
+  springboot,
+  nestjs,
   menu,
   close,
   css,
   docker,
+  Nextjs,
   figma,
   git,
   html,

@@ -17,6 +17,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   demo,
+  doc,
   demo_link,
 }) => {
   return (
@@ -24,9 +25,9 @@ const ProjectCard = ({
      
      <ParallaxTilt
 
-tiltMaxAngleX={45}
+tiltMaxAngleX={20}
 
-tiltMaxAngleY={45}
+tiltMaxAngleY={20}
 
 scale={1}
 
@@ -59,6 +60,16 @@ transitionSpeed={450}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <span className="text-white">Demo</span>
+          </div>
+        </div>
+      )}
+      {doc && (
+        <div className="absolute top-12 right-px flex justify-end m-3 card-img_hover">
+          <div
+            onClick={() => window.open(demo_link, "_blank")}
+            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+          >
+            <span className="text-white">Doc</span>
           </div>
         </div>
       )}

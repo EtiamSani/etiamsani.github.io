@@ -50,7 +50,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Je suis un développeur web full-stack spécialisé en JavaScript, avec une solide maîtrise des technologies back-end telles que Node.js, ainsi que des frameworks front-end tels que React. Je possède la capacité d'apprendre rapidement et je suis constamment en quête de nouvelles connaissances pour rester à la pointe de mon domaine. Grâce à mes compétences acquises dans mes précédents métiers, je suis en mesure de résoudre des problématiques complexes de manière efficace et créative. Mon objectif est de développer des applications web innovantes et performantes, en fournissant des solutions robustes et intuitives pour répondre aux besoins des utilisateurs.
+        Je suis un développeur web full-stack spécialisé en JavaScript, avec une solide maîtrise des technologies back-end telles que Node.js, ainsi que des frameworks front-end tels que React. Je possède la capacité d'apprendre rapidement et je suis constamment en quête de nouvelles connaissances pour rester à la pointe de mon domaine. Je suis en mesure de résoudre des problématiques complexes de manière efficace et créative. Mon objectif est de développer des applications web innovantes et performantes, en fournissant des solutions robustes et intuitives pour répondre aux besoins des utilisateurs.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

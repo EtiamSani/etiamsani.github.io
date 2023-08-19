@@ -6,7 +6,11 @@ import {
   html,
   css,
   reactjs,
+  nestjs,
+  java,
+  springboot,
   vite,
+  Nextjs,
   tailwind,
   nodejs,
   science,
@@ -15,6 +19,7 @@ import {
   postgresql,
   smart,
   mytherapist,
+  vêtements,
 } from "../assets";
 
 export const navLinks = [
@@ -69,12 +74,28 @@ const technologies = [
     icon: vite,
   },
   {
+    name: "Next",
+    icon: Nextjs,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Spring boot",
+    icon: springboot,
   },
   {
     name: "PostgreSQL",
@@ -162,6 +183,46 @@ const projects = [
     ],
     image: smart,
     demo:true,
+    source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
+    demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
+  },
+  {
+    name: "Vêtements.API",
+    description:
+      "API RESTful d'un site de vente de vêtements en ligne.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JPA",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Flyway",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "APIRest",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Back-end",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: vêtements,
+    demo:true,
+    doc:true,
     source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
     demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
   },
