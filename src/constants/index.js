@@ -229,7 +229,7 @@ const projects = [
     image: vêtements,
     demo:true,
     doc:true,
-    source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
+    source_code_link: "https://github.com/EtiamSani/Project-e-commerce-API",
     demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
   },
   {
@@ -281,8 +281,8 @@ const projects = [
     image: opti, 
     demo:false,
     doc:false,
-    source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
-    demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
+    source_code_link: "",
+    demo_link: "https://vetements-api.netlify.app/",
   },
 ];
 
