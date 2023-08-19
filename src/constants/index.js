@@ -3,6 +3,7 @@ import {
   backend,
   entrepreneur,
   javascript,
+  typescript,
   html,
   css,
   reactjs,
@@ -20,6 +21,7 @@ import {
   smart,
   mytherapist,
   vêtements,
+  opti,
 } from "../assets";
 
 export const navLinks = [
@@ -64,6 +66,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "React JS",
@@ -117,7 +123,7 @@ const technologies = [
 
 const projects = [
   {
-    name: "My Therapist",
+    name: "My Therapist API",
     description:
       "Saas mise en relation des clients avec des psychologues propre au besions de chaque clients",
     tags: [
@@ -223,6 +229,58 @@ const projects = [
     image: vêtements,
     demo:true,
     doc:true,
+    source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
+    demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
+  },
+  {
+    name: "OptiTeam Builder (en cours de développement)",
+    description:
+      "API RESTful d'un site de vente de vêtements en ligne.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nest.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "APIRest",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Full Stack",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: opti, 
+    demo:false,
+    doc:false,
     source_code_link: "https://github.com/EtiamSani/Live-stock-tracker-",
     demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
   },

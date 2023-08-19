@@ -33,6 +33,7 @@ import springboot from "./tech/springboot.png"
 import smart from "./Smart.png";
 import mytherapist from "./mytherapist.png";
 import vêtements from "./vêtements.png"
+import opti from "./optiteambuilder.png";
 
 export {
   logo,
@@ -50,6 +51,7 @@ export {
   close,
   css,
   docker,
+  opti,
   Nextjs,
   figma,
   git,
