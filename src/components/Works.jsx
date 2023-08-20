@@ -16,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  source_code_link_2,
   demo,
   doc,
   demo_link,
@@ -70,6 +71,20 @@ transitionSpeed={450}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <span className="text-white">Doc</span>
+          </div>
+        </div>
+      )}
+      {source_code_link_2 && (
+        <div className="absolute top-12 right-px flex justify-end m-3 card-img_hover">
+          <div
+            onClick={() => window.open(source_code_link_2, "_blank")}
+            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+          >
+            <span className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"><img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              /></span>
           </div>
         </div>
       )}

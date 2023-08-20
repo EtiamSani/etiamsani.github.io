@@ -7,6 +7,7 @@ import {
   html,
   css,
   reactjs,
+  kanban,
   nestjs,
   java,
   springboot,
@@ -230,7 +231,7 @@ const projects = [
     demo:true,
     doc:true,
     source_code_link: "https://github.com/EtiamSani/Project-e-commerce-API",
-    demo_link: "https://main--jolly-conkies-bbb7ae.netlify.app/",
+    demo_link: "https://vetements-api.netlify.app",
   },
   {
     name: "OptiTeam Builder (en cours de développement)",
@@ -283,6 +284,47 @@ const projects = [
     doc:false,
     source_code_link: "",
     demo_link: "https://vetements-api.netlify.app/",
+  },
+  {
+    name: "Kanban",
+    description:
+      "Organisateur de tâches",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bulma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "APIRest",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Full Stack",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: kanban, 
+    demo:false,
+    doc:false,
+    source_code_link: "https://github.com/EtiamSani/kanban-front",
+    source_code_link_2: "https://github.com/EtiamSani/kanban-api",
+    demo_link: "",
   },
 ];
 

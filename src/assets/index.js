@@ -34,6 +34,7 @@ import smart from "./Smart.png";
 import mytherapist from "./mytherapist.png";
 import vêtements from "./vêtements.png"
 import opti from "./optiteambuilder.png";
+import kanban from "./kanban.png";
 
 export {
   logo,
@@ -54,6 +55,7 @@ export {
   opti,
   Nextjs,
   figma,
+  kanban,
   git,
   html,
   vite,
