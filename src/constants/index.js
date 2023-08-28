@@ -23,16 +23,13 @@ import {
   mytherapist,
   vêtements,
   opti,
+  docker,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "Me concernant",
-  },
-  {
-    id: "contact",
-    title: "Contact",
+    title: "Me concernant 🚀",
   },
 ];
 
@@ -108,6 +105,11 @@ const technologies = [
     name: "PostgreSQL",
     icon: postgresql,
   },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -282,7 +284,7 @@ const projects = [
     image: opti, 
     demo:false,
     doc:false,
-    source_code_link: "",
+    source_code_link: "https://github.com/EtiamSani/Project-optiteam-builder",
     demo_link: "https://vetements-api.netlify.app/",
   },
   {
