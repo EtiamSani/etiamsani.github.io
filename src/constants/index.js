@@ -238,7 +238,7 @@ const projects = [
   {
     name: "OptiTeam Builder (en cours de développement)",
     description:
-      "API RESTful d'un site de vente de vêtements en ligne.",
+      "Application web de gestion d'équipe permettant la formation d'équipes de façon optimale",
     tags: [
       {
         name: "TypeScript",
