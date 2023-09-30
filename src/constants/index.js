@@ -236,7 +236,7 @@ const projects = [
     demo_link: "https://vetements-api.netlify.app",
   },
   {
-    name: "OptiTeam Builder (en cours de développement)",
+    name: "OptiTeam Builder",
     description:
       "Application web de gestion d'équipe permettant la formation d'équipes de façon optimale",
     tags: [
@@ -285,7 +285,8 @@ const projects = [
     demo:false,
     doc:false,
     source_code_link: "https://github.com/EtiamSani/Project-optiteam-builder",
-    demo_link: "https://vetements-api.netlify.app/",
+    source_code_link_2: "https://github.com/EtiamSani/Project-optiteam-builder"
+    
   },
   {
     name: "Kanban",
